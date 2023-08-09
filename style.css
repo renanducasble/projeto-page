@@ -42,8 +42,9 @@ body * {
 }
 
 #container {
-  width: 360px; /* A altura foi retirada, pois depende do conteúdo */
+  width: 100%; /* A altura foi retirada, pois depende do conteúdo */
   /*border: 1px solid red;  Delineia a borda do container, sem o "solid" ele não mostra a borda*/
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0px 24px;
 }
